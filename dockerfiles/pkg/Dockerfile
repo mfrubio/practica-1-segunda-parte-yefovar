@@ -10,7 +10,7 @@ ENV DEB_PACKAGES="sudo nano less git python3-dev python3-pip python3-setuptools 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && echo "America/Mexico_City" > /etc/timezone && apt-get install -y tzdata
 
 RUN apt-get update && apt-get install -y $DEB_PACKAGES && pip3 install --upgrade pip
-RUN git clone https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git
+COPY https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git
 RUN pip install /practica-1-segunda-parte-yefovar/src/
 
 
