@@ -11,5 +11,5 @@ Integrantes del equipo:
 
 ## Botón de binder
 
- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mfrubio/practica-1-segunda-parte-yefovar/main?filepath=instrucciones.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar/main?filepath=%2Fhome%2Fjovyan%2Fpractica-1-segunda-parte-yefovar)
 
